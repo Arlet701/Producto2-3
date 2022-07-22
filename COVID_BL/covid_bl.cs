@@ -11,12 +11,52 @@ namespace COVID_BL
 {
     public class covid_bl
     {
-        covid_dal BD = new covid_dal();
+        Consulta BD = new Consulta();
 
-        public DataTable Civil()
+        public DataTable Alum()
         {
-            return BD.ConsultaCivil();
+            return BD.ConsultaAlumno();
         }
 
+        public DataTable Profe()
+        {
+            return BD.ConsultaProfesor();
+        }
+        public DataTable Cuatri()
+        {
+            return BD.ConsultaCuatri();
+        }
+        public DataTable GrupoCuatri()
+        {
+            return BD.ConsultaGrupoCuatri();
+        }
+        public DataTable AluGru()
+        {
+            return BD.ConsultaAlGru();
+        }
+        public DataTable ProfeGru()
+        {
+            return BD.ConsultaProGru();
+        }
+        public DataTable Profpos()
+        {
+            return BD.ConsultaPosProf();
+        }
+        public DataTable Alpos()
+        {
+            return BD.ConsultaPosAl();
+        }
+        public DataTable ProSeg()
+        {
+            return BD.ConsultaSegPro();
+        }
+        public DataTable AlSeg()
+        {
+            return BD.ConsultaSegAl();
+        }
+        public DataTable Med()
+        {
+            return BD.ConsultaMedico();
+        }
     }
 }

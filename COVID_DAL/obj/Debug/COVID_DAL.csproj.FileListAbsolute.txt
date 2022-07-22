@@ -1,0 +1,6 @@
+C:\Users\arlet\source\repos\Producto\COVID_DAL\bin\Debug\COVID_DAL.dll
+C:\Users\arlet\source\repos\Producto\COVID_DAL\bin\Debug\COVID_DAL.pdb
+C:\Users\arlet\source\repos\Producto\COVID_DAL\obj\Debug\COVID_DAL.csproj.AssemblyReference.cache
+C:\Users\arlet\source\repos\Producto\COVID_DAL\obj\Debug\COVID_DAL.csproj.CoreCompileInputs.cache
+C:\Users\arlet\source\repos\Producto\COVID_DAL\obj\Debug\COVID_DAL.dll
+C:\Users\arlet\source\repos\Producto\COVID_DAL\obj\Debug\COVID_DAL.pdb

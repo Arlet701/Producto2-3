@@ -1,0 +1,37 @@
+﻿
+.fondo {
+    background-color: #31859C;
+    text-align: center;
+}
+
+li {
+    display: inline-block; /*Quita las viñetas*/
+    margin-left: 45px; /*Margenes de la derecha e izquierda*/
+    margin-right: 45px;
+    padding: 8px 16px 8px 16px; /*Espacio entre los links*/
+    font-size: 25px; /*Tamaño de la letra*/
+    font-family: 'Century Gothic'; 
+}
+
+.text1 {
+    text-align: left; /*Alineacion del text*/
+    font-size: 20px; /*Tamaño del texto*/
+    font-family: 'Century Schoolbook';
+}
+
+a:link {
+    color: orange; /*color que se visualiza en el link al entrar a la página*/
+}
+
+a:hover {
+    color: blue; /*Color que se visualiza al pasar sobre el link*/
+}
+
+a:active {
+    color: violet; /* Color que se visualiza cuando se dió click*/
+}
+.menu {
+    border-radius: 20px; /*El borde de radio que tendrá el menú*/
+    background-color: #C0C0C0; /*Color del borde*/
+}
+

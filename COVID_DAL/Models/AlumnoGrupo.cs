@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace COVID_DAL.Models
 {
-    public class AlumnoGrupo
+   public  class AlumnoGrupo
     {
-        public int ID_AlumnGru;
-        public int F_Alumn;
-        public int F_GrupCuat;
-        public string Extra;
-        public string Extra2;
+        public int F_Alumno { set; get; }
+        public int F_GruCuat { set; get; }
+        public string Extra { set; get; }
+        public string Extra2 { set; get; }
     }
 }

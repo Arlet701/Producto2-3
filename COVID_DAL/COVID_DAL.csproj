@@ -43,7 +43,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Consulta.cs" />
+    <Compile Include="Insertar.cs" />
+    <Compile Include="Models\Alumno.cs" />
     <Compile Include="Models\AlumnoGrupo.cs" />
+    <Compile Include="Models\Cuatrimestre.cs" />
+    <Compile Include="Models\GrupoCuatri.cs" />
+    <Compile Include="Models\Medico.cs" />
+    <Compile Include="Models\PositivoAlum.cs" />
+    <Compile Include="Models\PositivoProfe.cs" />
+    <Compile Include="Models\ProfeGrupo.cs" />
+    <Compile Include="Models\Profesor.cs" />
+    <Compile Include="Models\SegAl.cs" />
+    <Compile Include="Models\SegProf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

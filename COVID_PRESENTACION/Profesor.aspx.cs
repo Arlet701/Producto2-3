@@ -18,6 +18,10 @@ namespace COVID_PRESENTACION
                 DropDownList1.Items.Add("Seleccione la categoría");
                 DropDownList1.Items.Add("PTA");
                 DropDownList1.Items.Add("PTC");
+
+                DropDownList2.Items.Add("Seleccione el genero");
+                DropDownList2.Items.Add("Hombre");
+                DropDownList2.Items.Add("Mujer");
             }
         }
 
@@ -27,7 +31,7 @@ namespace COVID_PRESENTACION
             string Nombre = TextBox2.Text;
             string Ap_pat = TextBox3.Text;
             string Ap_Mat = TextBox4.Text;
-            string Genero = TextBox5.Text;
+            string Genero = DropDownList2.SelectedValue;
             string Cat = DropDownList1.SelectedValue;
             string Correo = TextBox6.Text;
             string Celular = TextBox7.Text;
@@ -39,7 +43,7 @@ namespace COVID_PRESENTACION
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(TextBox1.Text) && String.IsNullOrEmpty(TextBox4.Text) && String.IsNullOrEmpty(TextBox5.Text) &&
+            if (String.IsNullOrEmpty(TextBox1.Text) && String.IsNullOrEmpty(TextBox4.Text) && 
                String.IsNullOrEmpty(TextBox6.Text) && String.IsNullOrEmpty(TextBox7.Text) && String.IsNullOrEmpty(TextBox9.Text))
             {
                 string Nombre = TextBox2.Text;

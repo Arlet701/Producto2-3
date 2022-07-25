@@ -13,7 +13,12 @@ namespace COVID_PRESENTACION
         covid_bl op = new covid_bl();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                DropDownList1.Items.Add("Selecciona para añadir");
+                DropDownList1.Items.Add("Mujer");
+                DropDownList1.Items.Add("Hombre");
+            }
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -23,7 +28,7 @@ namespace COVID_PRESENTACION
             string Nombre = TextBox2.Text;
             string Ap_pat = TextBox3.Text;
             string Ap_mat = TextBox4.Text;
-            string Genero = TextBox5.Text;
+            string Genero = DropDownList1.SelectedValue;
             string Correo = TextBox6.Text;
             string Celular = TextBox7.Text;
             int F_EdoCivil = Convert.ToInt32(TextBox9.Text);
@@ -34,8 +39,8 @@ namespace COVID_PRESENTACION
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox3.Text) && String.IsNullOrEmpty(TextBox4.Text) && 
-                String.IsNullOrEmpty(TextBox5.Text) && String.IsNullOrEmpty(TextBox6.Text) && String.IsNullOrEmpty(TextBox7.Text))
+            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox3.Text) && String.IsNullOrEmpty(TextBox4.Text) 
+               && String.IsNullOrEmpty(TextBox6.Text) && String.IsNullOrEmpty(TextBox7.Text))
             {
                 string Matricula = TextBox1.Text;
                 op.EliminaAlumno(Matricula);

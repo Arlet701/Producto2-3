@@ -21,7 +21,8 @@
           <br />
      <br />
      Genero:&nbsp;
-     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+          <asp:DropDownList ID="DropDownList1" runat="server">
+          </asp:DropDownList>
           <br />
      <br />
      Correo:&nbsp;

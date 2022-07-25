@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-          <br />
+          Para eliminar solo escribe la matrícula<br />
       <br />
      Matricula:
      <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -37,8 +37,10 @@
           <br />
      <br />
      <asp:Button ID="Button2" runat="server" Text="Añadir" OnClick="Button2_Click"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <asp:Button ID="Button3" runat="server" Text="Eliminar" OnClick="Button3_Click" />
+&nbsp; &nbsp;
     <br />
     <br />
     <br />
-
 </asp:Content>

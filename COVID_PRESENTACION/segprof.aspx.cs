@@ -29,5 +29,21 @@ namespace COVID_PRESENTACION
             op.AgregaSegPro(F_positivoProfe, F_medico, Fecha, Form_Comunica, Reporte, Entrevista, Extra);
             Response.Write("<script>alert('Profesor registrado exitosamente');</script>");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox4.Text) && String.IsNullOrEmpty(TextBox5.Text)
+                && String.IsNullOrEmpty(TextBox6.Text) && String.IsNullOrEmpty(TextBox7.Text))
+            {
+                int F_positivoProfe = Convert.ToInt32(TextBox1.Text);
+                string FechaConfirmado = TextBox3.Text;
+                op.EliminaSegProfe(F_positivoProfe, FechaConfirmado);
+                Response.Write("<script>alert('Seguimiento Profesor eliminado exitosamente');</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Solo escribe al PROFE y la FECHA');</script>");
+            }
+        }
     }
 }

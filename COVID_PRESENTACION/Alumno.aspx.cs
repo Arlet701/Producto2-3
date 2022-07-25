@@ -18,7 +18,7 @@ namespace COVID_PRESENTACION
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            TextBox1.Enabled = true;
+
             string Matricula = TextBox1.Text;
             string Nombre = TextBox2.Text;
             string Ap_pat = TextBox3.Text;
@@ -30,6 +30,21 @@ namespace COVID_PRESENTACION
 
             op.AgregaAl(Matricula, Nombre, Ap_pat, Ap_mat, Genero, Correo, Celular, F_EdoCivil);
             Response.Write("<script>alert('Alumno registrado exitosamente');</script>");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox3.Text) && String.IsNullOrEmpty(TextBox4.Text) && 
+                String.IsNullOrEmpty(TextBox5.Text) && String.IsNullOrEmpty(TextBox6.Text) && String.IsNullOrEmpty(TextBox7.Text))
+            {
+                string Matricula = TextBox1.Text;
+                op.EliminaAlumno(Matricula);
+                Response.Write("<script>alert('Alumno eliminado exitosamente');</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Solo escribe la MATRICULA');</script>");
+            }       
         }
     }
 }

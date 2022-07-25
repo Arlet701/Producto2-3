@@ -27,5 +27,20 @@ namespace COVID_PRESENTACION
             Response.Write("<script>alert('Alumno - Cuatrimestre registrado exitosamente');</script>");
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox3.Text) && String.IsNullOrEmpty(TextBox4.Text))
+            {
+                int F_Alumno = Convert.ToInt32(TextBox1.Text);
+                op.EliminaAlGrp(F_Alumno);
+                Response.Write("<script>alert('Alumno eliminado exitosamente');</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Solo escribe al ALUMNO');</script>");
+            }
+
+        }
     }
 }

@@ -33,5 +33,20 @@ namespace COVID_PRESENTACION
             op.AgregaCuat(Periodo, anio, inicio, Fin, Extra);
             Response.Write("<script>alert('Cuatrimestre registrado exitosamente');</script>");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox3.Text) && String.IsNullOrEmpty(TextBox4.Text))
+            {
+                string Periodo = DropDownList1.SelectedValue;
+                int Anio = Convert.ToInt32(TextBox1.Text);
+                op.EliminaCuatri(Periodo, Anio);
+                Response.Write("<script>alert('Cuatrimestre eliminado exitosamente');</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Solo escribe el PERIODO y el AÑO');</script>");
+            }
+        }
     }
 }

@@ -85,10 +85,6 @@
     <Content Include="posProfe.aspx" />
     <Content Include="ProfeGrupo.aspx" />
     <Content Include="Profesor.aspx" />
-    <Content Include="Script\bootstrap.min.css" />
-    <Content Include="Script\bootstrap.min.js" />
-    <Content Include="Script\jquery-3.6.0.min.js" />
-    <Content Include="Script\popper.min.js" />
     <Content Include="segalum.aspx" />
     <Content Include="segprof.aspx" />
     <Content Include="Web.config" />

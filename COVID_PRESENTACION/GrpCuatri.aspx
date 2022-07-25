@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
+        Para eliminar solo escribe el Programa Educativo, Grupo y Turno</p>
+    <p>
         Programa Educativo:
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
@@ -29,6 +31,8 @@
         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     </p>
     <p>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Añadir Grupo Cuatrimestre" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" Text="Eliminar Grupo Cuatrimestre" OnClick="Button2_Click" />
     </p>
 </asp:Content>

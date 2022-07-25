@@ -32,5 +32,7 @@
     </p>
     <p>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Añadir" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" Text="Eliminar" OnClick="Button2_Click" />
     </p>
 </asp:Content>

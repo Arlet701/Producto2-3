@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
+        Para eliminar solo escribe al alumno</p>
+    <p>
         Alumno:&nbsp;
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
@@ -20,6 +22,8 @@
     </p>
     <p>
         &nbsp;
-        <asp:Button ID="Button1" runat="server" Text="Añadir" OnClick="Button1_Click" />
+        <asp:Button ID="Button1" runat="server" Text="Añadir Alumno Grupo" OnClick="Button1_Click" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Eliminar Alumno Grupo" />
     </p>
 </asp:Content>

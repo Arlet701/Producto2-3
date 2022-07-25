@@ -34,5 +34,21 @@ namespace COVID_PRESENTACION
             op.AgregaPosAl(FechaConfirmado, Comprobacion, Antecedentes, Riesgo, NumContagio, Extra, F_Alumno);
             Response.Write("<script>alert('Alumno con covid registrado exitosamente');</script>");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(TextBox2.Text) && String.IsNullOrEmpty(TextBox3.Text)
+                  && String.IsNullOrEmpty(TextBox4.Text) && String.IsNullOrEmpty(TextBox5.Text))
+            {
+                string FechaConfirmado = TextBox1.Text;
+                int F_Alumno = Convert.ToInt32(TextBox6.Text);
+                op.EliminaALPos(FechaConfirmado, F_Alumno);
+                Response.Write("<script>alert('Alumno positivo eliminado exitosamente');</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Solo escribe la FECHA y el ALUMNO');</script>");
+            }
+        }
     }
 }

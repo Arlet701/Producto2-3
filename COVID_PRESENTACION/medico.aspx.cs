@@ -30,5 +30,23 @@ namespace COVID_PRESENTACION
             op.AgregaMed(Nombre, App, Apm, telefono, correo, horario, especialidad, extra);
             Response.Write("<script>alert('Medico registrado exitosamente');</script>");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(TextBox4.Text) && String.IsNullOrEmpty(TextBox5.Text) &&
+               String.IsNullOrEmpty(TextBox6.Text) && String.IsNullOrEmpty(TextBox7.Text) &&
+               String.IsNullOrEmpty(TextBox8.Text))
+            {
+                string Nombre = TextBox1.Text;
+                string App = TextBox2.Text;
+                string Apm = TextBox3.Text;
+                op.EliminaMed(Nombre, App, Apm);
+                Response.Write("<script>alert('Medico eliminado exitosamente');</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Solo escribe el NOMBRE y APELLIDOS');</script>");
+            }
+        }
     }
 }

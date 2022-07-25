@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
               <br />
-      <br />
+              Para eliminar solo inserta el nombre y apellido paterno<br />
               Registro Empleado:
      <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
           <br />
@@ -25,7 +25,8 @@
               <br />
               <br />
               Categoría:
-              <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+              <asp:DropDownList ID="DropDownList1" runat="server">
+              </asp:DropDownList>
           <br />
      <br />
      Correo:&nbsp;
@@ -41,6 +42,8 @@
           <br />
      <br />
      <asp:Button ID="Button2" runat="server" Text="Añadir" OnClick="Button2_Click"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <asp:Button ID="Button3" runat="server" Text="Eliminar" OnClick="Button3_Click" />
     <br />
     <br />
     <br />

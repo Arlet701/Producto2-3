@@ -29,6 +29,7 @@ namespace COVID_PRESENTACION
                 DropDownList1.Items.Add("Seguimiento PRO");
                 DropDownList1.Items.Add("Seguimiento AL");
                 DropDownList1.Items.Add("Medico");
+                DropDownList1.Items.Add("Incapacidad");
             }
 
         }
@@ -92,6 +93,11 @@ namespace COVID_PRESENTACION
             else if (DropDownList1.SelectedItem.Text == "Medico")
             {
                 GridView1.DataSource = op.Med();
+                GridView1.DataBind();
+            }
+            else if (DropDownList1.SelectedItem.Text == "Incapacidad")
+            {
+                GridView1.DataSource = op.Inc();
                 GridView1.DataBind();
             }
         }

@@ -25,6 +25,7 @@ namespace COVID_PRESENTACION
                 DropDownList1.Items.Add("Seguimiento PRO");
                 DropDownList1.Items.Add("Seguimiento AL");
                 DropDownList1.Items.Add("Medico");
+                DropDownList1.Items.Add("Incapacidad");
             }
         }
 
@@ -32,47 +33,47 @@ namespace COVID_PRESENTACION
         {
             if (DropDownList1.SelectedItem.Text == "Alumno")
             {
-                Response.Redirect("Alumno.aspx");
+                Response.Redirect("EliminarAlumno.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Profesor")
             {
-                Response.Redirect("Profesor.aspx");
+                Response.Redirect("EliminarProfesor.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Cuatrimestre")
             {
-                Response.Redirect("Cuatrimestre.aspx");
+                Response.Redirect("EliminarCuatrimestre.aspx");
             }
-            else if (DropDownList1.SelectedItem.Text == "Grupo Cuatrimestre")
+            else if (DropDownList1.SelectedItem.Text == "Grupo Cuatrimestre")  
             {
-                Response.Redirect("GrpCuatri.aspx");
+                Response.Redirect("EliminarGrpCuatri.aspx"); 
             }
             else if (DropDownList1.SelectedItem.Text == "Alumno Grupo")
             {
-                Response.Redirect("AlumnoGrupo.aspx");
+                Response.Redirect("EliminarAlumnoGrupo.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Profe Grupo")
             {
-                Response.Redirect("ProfeGrupo.aspx");
+                Response.Redirect("EliminarProfeGrupo.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "positivo Profe")
             {
-                Response.Redirect("posProfe.aspx");
+                Response.Redirect("EliminarposProfe.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "positivo Alumno")
             {
-                Response.Redirect("posAlumno.aspx");
+                Response.Redirect("EliminarposAlumno.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Seguimiento PRO")
             {
-                Response.Redirect("segprof.aspx");
+                Response.Redirect("Eliminarsegprof.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Seguimiento AL")
             {
-                Response.Redirect("segalum.aspx");
+                Response.Redirect("Eliminarsegalum.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Medico")
             {
-                Response.Redirect("medico.aspx");
+                Response.Redirect("Eliminarmedico.aspx");
             }
         }
     }

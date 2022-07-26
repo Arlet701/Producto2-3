@@ -58,6 +58,12 @@ namespace COVID_BL
         {
             return BD.ConsultaMedico();
         }
+        public DataTable Inc()
+        {
+            return BD.ConsultaIncapacidad();
+        }
+
+
         public void AgregaAl(string Matricula, string Nombre, string Ap_pat, string Ap_mat, string Genero, string Correo, string Celular, int F_EdoCivil)
         {
             IN.AgregarAl(Matricula, Nombre, Ap_pat, Ap_mat, Genero, Correo, Celular, F_EdoCivil);

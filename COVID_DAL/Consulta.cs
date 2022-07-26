@@ -279,6 +279,28 @@ namespace COVID_DAL
             return (Tabla);
         }
 
+        public DataTable ConsultaIncapacidad()
+        {
+            DataTable Tabla = null;
+            DataSet Cont = new DataSet();
+
+            using (SqlConnection Con = new SqlConnection(CadCon))
+            {
+
+                using (SqlCommand Com = new SqlCommand())
+                {
+                    Com.Connection = Con;
+                    Com.CommandText = "SELECT*FROM Incapacidad";
+                    SqlDataAdapter Da = new SqlDataAdapter();
+                    Da.SelectCommand = Com;
+                    Da.Fill(Cont);
+                    Tabla = Cont.Tables[0];
+                }
+
+            }
+            return (Tabla);
+        }
+
     }
 
 }

@@ -71,22 +71,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Agregar.aspx" />
-    <Content Include="Alumno.aspx" />
-    <Content Include="AlumnoGrupo.aspx" />
+    <Content Include="AgregarAlumno.aspx" />
+    <Content Include="AgregarAlumnoGrupo.aspx" />
     <Content Include="Consulta.aspx" />
-    <Content Include="Cuatrimestre.aspx" />
+    <Content Include="AgregarCuatrimestre.aspx" />
     <Content Include="Eliminar.aspx" />
+    <Content Include="EliminarAlumno.aspx" />
+    <Content Include="EliminarAlumnoGrupo.aspx" />
+    <Content Include="EliminarCuatrimestre.aspx" />
+    <Content Include="EliminarGrpCuatri.aspx" />
+    <Content Include="Eliminarmedico.aspx" />
+    <Content Include="EliminarposAlumno.aspx" />
+    <Content Include="EliminarposProfe.aspx" />
+    <Content Include="EliminarProfeGrupo.aspx" />
+    <Content Include="EliminarProfesor.aspx" />
+    <Content Include="Eliminarsegalum.aspx" />
+    <Content Include="Eliminarsegprof.aspx" />
     <Content Include="Estilos\Estilo.css" />
-    <Content Include="GrpCuatri.aspx" />
+    <Content Include="AgregarGrpCuatri.aspx" />
+    <Content Include="Incapacidad.aspx" />
     <Content Include="Index.aspx" />
-    <Content Include="medico.aspx" />
+    <Content Include="Agregarmedico.aspx" />
     <Content Include="Modificar.aspx" />
-    <Content Include="posAlumno.aspx" />
-    <Content Include="posProfe.aspx" />
-    <Content Include="ProfeGrupo.aspx" />
-    <Content Include="Profesor.aspx" />
-    <Content Include="segalum.aspx" />
-    <Content Include="segprof.aspx" />
+    <Content Include="AgregarposAlumno.aspx" />
+    <Content Include="AgregarposProfe.aspx" />
+    <Content Include="AgregarProfeGrupo.aspx" />
+    <Content Include="AgregarProfesor.aspx" />
+    <Content Include="Agregarsegalum.aspx" />
+    <Content Include="Agregarsegprof.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,19 +109,19 @@
     <Compile Include="Agregar.aspx.designer.cs">
       <DependentUpon>Agregar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumno.aspx.cs">
-      <DependentUpon>Alumno.aspx</DependentUpon>
+    <Compile Include="AgregarAlumno.aspx.cs">
+      <DependentUpon>AgregarAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Alumno.aspx.designer.cs">
-      <DependentUpon>Alumno.aspx</DependentUpon>
+    <Compile Include="AgregarAlumno.aspx.designer.cs">
+      <DependentUpon>AgregarAlumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AlumnoGrupo.aspx.cs">
-      <DependentUpon>AlumnoGrupo.aspx</DependentUpon>
+    <Compile Include="AgregarAlumnoGrupo.aspx.cs">
+      <DependentUpon>AgregarAlumnoGrupo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AlumnoGrupo.aspx.designer.cs">
-      <DependentUpon>AlumnoGrupo.aspx</DependentUpon>
+    <Compile Include="AgregarAlumnoGrupo.aspx.designer.cs">
+      <DependentUpon>AgregarAlumnoGrupo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Consulta.aspx.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
@@ -118,12 +130,12 @@
     <Compile Include="Consulta.aspx.designer.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Cuatrimestre.aspx.cs">
-      <DependentUpon>Cuatrimestre.aspx</DependentUpon>
+    <Compile Include="AgregarCuatrimestre.aspx.cs">
+      <DependentUpon>AgregarCuatrimestre.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cuatrimestre.aspx.designer.cs">
-      <DependentUpon>Cuatrimestre.aspx</DependentUpon>
+    <Compile Include="AgregarCuatrimestre.aspx.designer.cs">
+      <DependentUpon>AgregarCuatrimestre.aspx</DependentUpon>
     </Compile>
     <Compile Include="Eliminar.aspx.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>
@@ -132,12 +144,96 @@
     <Compile Include="Eliminar.aspx.designer.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GrpCuatri.aspx.cs">
-      <DependentUpon>GrpCuatri.aspx</DependentUpon>
+    <Compile Include="EliminarAlumno.aspx.cs">
+      <DependentUpon>EliminarAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GrpCuatri.aspx.designer.cs">
-      <DependentUpon>GrpCuatri.aspx</DependentUpon>
+    <Compile Include="EliminarAlumno.aspx.designer.cs">
+      <DependentUpon>EliminarAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarAlumnoGrupo.aspx.cs">
+      <DependentUpon>EliminarAlumnoGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarAlumnoGrupo.aspx.designer.cs">
+      <DependentUpon>EliminarAlumnoGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarCuatrimestre.aspx.cs">
+      <DependentUpon>EliminarCuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarCuatrimestre.aspx.designer.cs">
+      <DependentUpon>EliminarCuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarGrpCuatri.aspx.cs">
+      <DependentUpon>EliminarGrpCuatri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarGrpCuatri.aspx.designer.cs">
+      <DependentUpon>EliminarGrpCuatri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminarmedico.aspx.cs">
+      <DependentUpon>Eliminarmedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eliminarmedico.aspx.designer.cs">
+      <DependentUpon>Eliminarmedico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarposAlumno.aspx.cs">
+      <DependentUpon>EliminarposAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarposAlumno.aspx.designer.cs">
+      <DependentUpon>EliminarposAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarposProfe.aspx.cs">
+      <DependentUpon>EliminarposProfe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarposProfe.aspx.designer.cs">
+      <DependentUpon>EliminarposProfe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarProfeGrupo.aspx.cs">
+      <DependentUpon>EliminarProfeGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarProfeGrupo.aspx.designer.cs">
+      <DependentUpon>EliminarProfeGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarProfesor.aspx.cs">
+      <DependentUpon>EliminarProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EliminarProfesor.aspx.designer.cs">
+      <DependentUpon>EliminarProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarGrpCuatri.aspx.cs">
+      <DependentUpon>AgregarGrpCuatri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarGrpCuatri.aspx.designer.cs">
+      <DependentUpon>AgregarGrpCuatri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminarsegalum.aspx.cs">
+      <DependentUpon>Eliminarsegalum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eliminarsegalum.aspx.designer.cs">
+      <DependentUpon>Eliminarsegalum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminarsegprof.aspx.cs">
+      <DependentUpon>Eliminarsegprof.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eliminarsegprof.aspx.designer.cs">
+      <DependentUpon>Eliminarsegprof.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Incapacidad.aspx.cs">
+      <DependentUpon>Incapacidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Incapacidad.aspx.designer.cs">
+      <DependentUpon>Incapacidad.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -146,12 +242,12 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="medico.aspx.cs">
-      <DependentUpon>medico.aspx</DependentUpon>
+    <Compile Include="Agregarmedico.aspx.cs">
+      <DependentUpon>Agregarmedico.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="medico.aspx.designer.cs">
-      <DependentUpon>medico.aspx</DependentUpon>
+    <Compile Include="Agregarmedico.aspx.designer.cs">
+      <DependentUpon>Agregarmedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modificar.aspx.cs">
       <DependentUpon>Modificar.aspx</DependentUpon>
@@ -160,33 +256,33 @@
     <Compile Include="Modificar.aspx.designer.cs">
       <DependentUpon>Modificar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="posAlumno.aspx.cs">
-      <DependentUpon>posAlumno.aspx</DependentUpon>
+    <Compile Include="AgregarposAlumno.aspx.cs">
+      <DependentUpon>AgregarposAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="posAlumno.aspx.designer.cs">
-      <DependentUpon>posAlumno.aspx</DependentUpon>
+    <Compile Include="AgregarposAlumno.aspx.designer.cs">
+      <DependentUpon>AgregarposAlumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="posProfe.aspx.cs">
-      <DependentUpon>posProfe.aspx</DependentUpon>
+    <Compile Include="AgregarposProfe.aspx.cs">
+      <DependentUpon>AgregarposProfe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="posProfe.aspx.designer.cs">
-      <DependentUpon>posProfe.aspx</DependentUpon>
+    <Compile Include="AgregarposProfe.aspx.designer.cs">
+      <DependentUpon>AgregarposProfe.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ProfeGrupo.aspx.cs">
-      <DependentUpon>ProfeGrupo.aspx</DependentUpon>
+    <Compile Include="AgregarProfeGrupo.aspx.cs">
+      <DependentUpon>AgregarProfeGrupo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ProfeGrupo.aspx.designer.cs">
-      <DependentUpon>ProfeGrupo.aspx</DependentUpon>
+    <Compile Include="AgregarProfeGrupo.aspx.designer.cs">
+      <DependentUpon>AgregarProfeGrupo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Profesor.aspx.cs">
-      <DependentUpon>Profesor.aspx</DependentUpon>
+    <Compile Include="AgregarProfesor.aspx.cs">
+      <DependentUpon>AgregarProfesor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Profesor.aspx.designer.cs">
-      <DependentUpon>Profesor.aspx</DependentUpon>
+    <Compile Include="AgregarProfesor.aspx.designer.cs">
+      <DependentUpon>AgregarProfesor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Home.Master.cs">
@@ -196,19 +292,19 @@
     <Compile Include="Home.Master.designer.cs">
       <DependentUpon>Home.Master</DependentUpon>
     </Compile>
-    <Compile Include="segalum.aspx.cs">
-      <DependentUpon>segalum.aspx</DependentUpon>
+    <Compile Include="Agregarsegalum.aspx.cs">
+      <DependentUpon>Agregarsegalum.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="segalum.aspx.designer.cs">
-      <DependentUpon>segalum.aspx</DependentUpon>
+    <Compile Include="Agregarsegalum.aspx.designer.cs">
+      <DependentUpon>Agregarsegalum.aspx</DependentUpon>
     </Compile>
-    <Compile Include="segprof.aspx.cs">
-      <DependentUpon>segprof.aspx</DependentUpon>
+    <Compile Include="Agregarsegprof.aspx.cs">
+      <DependentUpon>Agregarsegprof.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="segprof.aspx.designer.cs">
-      <DependentUpon>segprof.aspx</DependentUpon>
+    <Compile Include="Agregarsegprof.aspx.designer.cs">
+      <DependentUpon>Agregarsegprof.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

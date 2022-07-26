@@ -32,47 +32,47 @@ namespace COVID_PRESENTACION
         {
             if (DropDownList1.SelectedItem.Text == "Alumno")
             {
-                Response.Redirect("Alumno.aspx");
+                Response.Redirect("AgregarAlumno.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Profesor")
             {
-                Response.Redirect("Profesor.aspx");
+                Response.Redirect("AgregarProfesor.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Cuatrimestre")
             {
-                Response.Redirect("Cuatrimestre.aspx");
+                Response.Redirect("AgregarCuatrimestre.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Grupo Cuatrimestre")
             {
-                Response.Redirect("GrpCuatri.aspx");
+                Response.Redirect("AgregarGrpCuatri.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Alumno Grupo")
             {
-                Response.Redirect("AlumnoGrupo.aspx");
+                Response.Redirect("AgregarAlumnoGrupo.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Profe Grupo")
             {
-                Response.Redirect("ProfeGrupo.aspx");
+                Response.Redirect("AgregarProfeGrupo.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "positivo Profe")
             {
-                Response.Redirect("posProfe.aspx");
+                Response.Redirect("AgregarposProfe.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "positivo Alumno")
             {
-                Response.Redirect("posAlumno.aspx");
+                Response.Redirect("AgregarposAlumno.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Seguimiento PRO")
             {
-                Response.Redirect("segprof.aspx");
+                Response.Redirect("Agregarsegprof.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Seguimiento AL")
             {
-                Response.Redirect("segalum.aspx");
+                Response.Redirect("Agregarsegalum.aspx");
             }
             else if (DropDownList1.SelectedItem.Text == "Medico")
             {
-                Response.Redirect("medico.aspx");
+                Response.Redirect("Agregarmedico.aspx");
             }
 
         }

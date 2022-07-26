@@ -27,7 +27,6 @@ namespace COVID_DAL
                 {
                     Comando.Connection = Con;
                     Comando.Parameters.AddWithValue("@Mat", Matricula);
-
                     Comando.CommandText = "DELETE FROM Alumno Where Matricula = @Mat";
                     Comando.ExecuteNonQuery();
                 }

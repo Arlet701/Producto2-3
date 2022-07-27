@@ -3,16 +3,24 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
         Nombre:
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
         Apellido Paterno:<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Apellido Materno:
         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
         Telefono:<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>

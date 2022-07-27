@@ -8,6 +8,9 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Fecha Confirmado:&nbsp;
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </p>

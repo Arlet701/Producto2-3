@@ -9,8 +9,14 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Grupo Cuatrimeste:&nbsp;
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
     </p>
     <p>
         Extra :

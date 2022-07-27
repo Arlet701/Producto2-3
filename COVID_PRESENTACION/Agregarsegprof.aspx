@@ -7,8 +7,14 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Medico:
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
         Fecha:
@@ -19,8 +25,14 @@
         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox4" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Reporte:
         <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox5" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
         Entrevista:

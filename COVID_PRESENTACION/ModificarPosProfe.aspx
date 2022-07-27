@@ -13,7 +13,13 @@
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Comprobación: <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox3" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
         Riesgo:<asp:DropDownList ID="DropDownList1" runat="server">
@@ -24,12 +30,18 @@
         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox4" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    </p>
+    <p>
         Extra:
         <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
     </p>
     <p>
         Profe:
         <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox6" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
         <asp:Button ID="Button1" runat="server" Text="Actualizar" OnClick="Button1_Click" />

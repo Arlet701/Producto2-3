@@ -29,8 +29,6 @@
      Genero:&nbsp;
           <asp:DropDownList ID="DropDownList1" runat="server">
           </asp:DropDownList>
-          <br />
-     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="DropDownList1" ErrorMessage="*Debe seleccionar una opción" ForeColor="#F40000"></asp:RequiredFieldValidator>
      <br />
      <br />
      Correo:&nbsp;

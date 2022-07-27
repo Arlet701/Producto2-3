@@ -91,7 +91,6 @@
     <Content Include="Eliminarsegprof.aspx" />
     <Content Include="Estilos\Estilo.css" />
     <Content Include="AgregarGrpCuatri.aspx" />
-    <Content Include="Incapacidad.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="Agregarmedico.aspx" />
     <Content Include="Modificar.aspx" />
@@ -255,13 +254,6 @@
     </Compile>
     <Compile Include="Eliminarsegprof.aspx.designer.cs">
       <DependentUpon>Eliminarsegprof.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Incapacidad.aspx.cs">
-      <DependentUpon>Incapacidad.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Incapacidad.aspx.designer.cs">
-      <DependentUpon>Incapacidad.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

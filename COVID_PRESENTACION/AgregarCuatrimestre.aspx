@@ -11,7 +11,7 @@
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
     <p>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Debe especificar el año" ForeColor="#F40000"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Debe especificar el año" ForeColor="#F40000" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
     </p>
     <p>
         Inicio(yyyy-mm-dd):

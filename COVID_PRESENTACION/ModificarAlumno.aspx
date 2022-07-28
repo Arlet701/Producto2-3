@@ -39,9 +39,12 @@
      Celular:&nbsp;
      <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
           <br />
+    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox7" ErrorMessage="*Debe ingresar números" ForeColor="#F40000"></asp:RegularExpressionValidator>
+          <br />
      <br />
      Estado Civil:&nbsp;&nbsp;
      <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+          <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox9" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
           <br />
     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox9" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
           <br />

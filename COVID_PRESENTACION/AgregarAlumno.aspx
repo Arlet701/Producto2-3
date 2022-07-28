@@ -33,15 +33,18 @@
      <br />
      Correo:&nbsp;
      <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
-          <br />
      <br />
      <br />
      Celular:&nbsp;
      <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
           <br />
+     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox7" ErrorMessage="*No puede ingresar letras" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+          <br />
      <br />
      Estado Civil:&nbsp;&nbsp;
      <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+          <br />
+     <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox9" ErrorMessage="*Ingrese números" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
           <br />
      <br />
      <asp:Button ID="Button2" runat="server" Text="Añadir" OnClick="Button2_Click"/>

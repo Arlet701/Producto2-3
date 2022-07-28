@@ -74,8 +74,13 @@
     <Content Include="AgregarAlumno.aspx" />
     <Content Include="AgregarAlumnoGrupo.aspx" />
     <Content Include="AgregarIncapacidad.aspx" />
+    <Content Include="AlContXGrupo.aspx" />
+    <Content Include="AlSegMat.aspx" />
     <Content Include="Consulta.aspx" />
     <Content Include="AgregarCuatrimestre.aspx" />
+    <Content Include="ConsultaAlContag.aspx" />
+    <Content Include="ConsultaProfContag.aspx" />
+    <Content Include="ContProfDet.aspx" />
     <Content Include="Eliminar.aspx" />
     <Content Include="EliminarAlumno.aspx" />
     <Content Include="EliminarAlumnoGrupo.aspx" />
@@ -143,6 +148,20 @@
     <Compile Include="AgregarIncapacidad.aspx.designer.cs">
       <DependentUpon>AgregarIncapacidad.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AlContXGrupo.aspx.cs">
+      <DependentUpon>AlContXGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlContXGrupo.aspx.designer.cs">
+      <DependentUpon>AlContXGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlSegMat.aspx.cs">
+      <DependentUpon>AlSegMat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlSegMat.aspx.designer.cs">
+      <DependentUpon>AlSegMat.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Consulta.aspx.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,6 +175,27 @@
     </Compile>
     <Compile Include="AgregarCuatrimestre.aspx.designer.cs">
       <DependentUpon>AgregarCuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAlContag.aspx.cs">
+      <DependentUpon>ConsultaAlContag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaAlContag.aspx.designer.cs">
+      <DependentUpon>ConsultaAlContag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaProfContag.aspx.cs">
+      <DependentUpon>ConsultaProfContag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaProfContag.aspx.designer.cs">
+      <DependentUpon>ConsultaProfContag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContProfDet.aspx.cs">
+      <DependentUpon>ContProfDet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContProfDet.aspx.designer.cs">
+      <DependentUpon>ContProfDet.aspx</DependentUpon>
     </Compile>
     <Compile Include="Eliminar.aspx.cs">
       <DependentUpon>Eliminar.aspx</DependentUpon>

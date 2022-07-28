@@ -17,8 +17,9 @@
     <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:Label ID="Label4" runat="server" Text="F_positivoProfe:"></asp:Label>
+    <asp:Label ID="Label4" runat="server" Text="Id _positivoProfe:"></asp:Label>
     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
     <br />
     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Obligatorio responder" ForeColor="#F40000" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
     <br />

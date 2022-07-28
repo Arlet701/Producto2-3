@@ -37,8 +37,9 @@
         <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
     </p>
     <p>
-        Id_Alum:
+        Id Alumno:
         <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox6" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
     </p>
         <p>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox6" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>

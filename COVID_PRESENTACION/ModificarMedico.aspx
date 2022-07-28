@@ -32,6 +32,9 @@
         Telefono:<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox5" ErrorMessage="*Ingrese números" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+    </p>
+    <p>
         Horario:<asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
     </p>
     <p>

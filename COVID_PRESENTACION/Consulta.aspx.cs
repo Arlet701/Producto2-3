@@ -30,6 +30,11 @@ namespace COVID_PRESENTACION
                 DropDownList1.Items.Add("Seguimiento AL");
                 DropDownList1.Items.Add("Medico");
                 DropDownList1.Items.Add("Incapacidad");
+                DropDownList1.Items.Add("Profesores contagiados");
+                DropDownList1.Items.Add("Alumnos contagiados");
+                DropDownList1.Items.Add("Alumnos contagiados por grupo");
+                DropDownList1.Items.Add("Seguimiento alumno por matrícula");
+                DropDownList1.Items.Add("Detalle profesor contagiado");
             }
 
         }
@@ -99,6 +104,26 @@ namespace COVID_PRESENTACION
             {
                 GridView1.DataSource = op.Inc();
                 GridView1.DataBind();
+            }
+            else if(DropDownList1.SelectedItem.Text == "Profesores contagiados")
+            {
+                Response.Redirect("ConsultaProfContag.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text== "Alumnos contagiados")
+            {
+                Response.Redirect("ConsultaAlContag.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text== "Alumnos contagiados por grupo")
+            {
+                Response.Redirect("AlContXGrupo.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text== "Seguimiento alumno por matrícula")
+            {
+                Response.Redirect("AlSegMat.aspx");
+            }
+            else if (DropDownList1.SelectedItem.Text == "Detalle profesor contagiado")
+            {
+                Response.Redirect("ContProfDet.aspx");
             }
         }
     }

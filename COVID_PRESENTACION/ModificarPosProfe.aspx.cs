@@ -25,7 +25,23 @@ namespace COVID_PRESENTACION
         {
             string FechaConfirmado = TextBox1.Text;
             string Antecedentes = TextBox2.Text;
-            string Comprobacion = TextBox3.Text;
+            //Se obtiene el nombre del archivo 
+            string Comprobacion2 = FileUpload1.FileName;
+            //Definimos la ruta del archivo
+            string imgRuta = "PruebaCovid/" + Comprobacion2;
+            int imgtamano = FileUpload1.PostedFile.ContentLength;
+            if (imgtamano >= 5242880)
+            {
+                Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "Alert1", "alert('El archivo es muy grande", true);
+            }
+            else
+            {
+                FileUpload1.SaveAs(Server.MapPath(imgRuta));//Guarda el archivo 
+                                                            //Para comprobar que se subio el archivo, se visualiza 
+                ImageButton1.ImageUrl = "~/" + imgRuta;//Image1
+                Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "Alert1", "alert('Se guardo el archivo", true);
+            }
+            string Comprobacion = ImageButton1.ImageUrl;
             string Riesgo = DropDownList1.SelectedValue;
             int NumContaio = Convert.ToInt32(TextBox4.Text);
             string Extra = TextBox5.Text;
@@ -34,5 +50,7 @@ namespace COVID_PRESENTACION
             op.ModificaPosProf(FechaConfirmado, Antecedentes, Comprobacion, Riesgo, NumContaio, Extra, F_Profe);
             Response.Write("<script>alert('Profesor con covid actualizado exitosamente');</script>");
         }
+
+        
     }
 }

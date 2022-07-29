@@ -32,10 +32,12 @@ namespace COVID_PRESENTACION
                 DropDownList2.Items.Add("TSU");
                 DropDownList2.Items.Add("Ingeniería");
 
-                DropDownList3.Items.Add("Selecciona el Periodo");
-                DropDownList3.Items.Add("Enero - Abril");
-                DropDownList3.Items.Add("Mayo - Agosto");
-                DropDownList3.Items.Add("Septiembre - Diciembre");
+                DropDownList3.Items.Add("Seleccione la carrera");
+                DropDownList3.Items.Add("TI");
+                DropDownList3.Items.Add("Meca");
+                DropDownList3.Items.Add("Gastro");
+                DropDownList3.Items.Add("Ene Renov");
+                DropDownList3.Items.Add("Industrial");
             }
         }
 
@@ -44,9 +46,8 @@ namespace COVID_PRESENTACION
             int Grado = int.Parse(DropDownList1.SelectedValue);
             string Grupo = TextBox1.Text;
             string ProgramaEducativo = DropDownList2.SelectedValue;
-            string Periodo = DropDownList3.SelectedValue;
-            int Anio = Convert.ToInt32(TextBox2.Text);
-            GridView1.DataSource = op.ConsultaalContgrupo(Grado, Grupo, ProgramaEducativo, Periodo, Anio);
+            string Carrera = DropDownList3.SelectedValue;
+            GridView1.DataSource = op.ConsultaalContgrupo(Grado, Grupo, ProgramaEducativo, Carrera);
             GridView1.DataBind();
         }
     }

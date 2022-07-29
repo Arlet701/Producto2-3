@@ -26,6 +26,9 @@
         Telefono:<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     </p>
     <p>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox4" ErrorMessage="*Ingrese números" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+    </p>
+    <p>
         Correo:<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
     </p>
     <p>

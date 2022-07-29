@@ -113,8 +113,8 @@ C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\bin\COVID_DAL.dl
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\bin\COVID_BL.pdb
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\bin\COVID_DAL.pdb
-C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\obj\Debug\COVID_PRESENTACION.csprojAssemblyReference.cache
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\obj\Debug\COVID_PRESENTACION.csproj.CoreCompileInputs.cache
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\obj\Debug\COVID_PRESENTACION.csproj.CopyComplete
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\obj\Debug\COVID_PRESENTACION.dll
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\obj\Debug\COVID_PRESENTACION.pdb
+C:\Users\FamContreras\Desktop\Producto2-main\COVID_PRESENTACION\obj\Debug\COVID_PRESENTACION.csprojAssemblyReference.cache

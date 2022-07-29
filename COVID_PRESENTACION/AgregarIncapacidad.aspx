@@ -3,23 +3,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label ID="Label1" runat="server" Text="Periodo: "></asp:Label>
-    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-    <br />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Obligatorio responder" ForeColor="#F40000" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
+    <asp:DropDownList ID="DropDownList1" runat="server">
+    </asp:DropDownList>
     <br />
     <br />
     <asp:Label ID="Label2" runat="server" Text="Comprobación:"></asp:Label>
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    <asp:FileUpload ID="FileUpload1" runat="server" />
     <br />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Obligatorio responder" ForeColor="#F40000" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
+    <asp:ImageButton ID="ImageButton1" runat="server" />
+    <br />
     <br />
     <asp:Label ID="Label3" runat="server" Text="Extra: "></asp:Label>
     <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:Label ID="Label4" runat="server" Text="Id _positivoProfe:"></asp:Label>
+    <asp:Label ID="Label4" runat="server" Text="Profesor positivo: "></asp:Label>
     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*" ControlToValidate="TextBox4"></asp:RegularExpressionValidator>
     <br />
     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Obligatorio responder" ForeColor="#F40000" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
     <br />

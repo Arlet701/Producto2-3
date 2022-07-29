@@ -27,8 +27,7 @@ namespace COVID_PRESENTACION
         {
             string Periodo = DropDownList1.SelectedValue;
             string Matricula = TextBox1.Text;
-            int Anio = Convert.ToInt32(TextBox2.Text);
-            GridView1.DataSource = op.ConsultaSegAL(Periodo, Matricula, Anio);
+            GridView1.DataSource = op.ConsultaSegAL(Periodo, Matricula);
             GridView1.DataBind();
         }
     }

@@ -5,17 +5,12 @@
     Periodo:
     <asp:DropDownList ID="DropDownList1" runat="server">
     </asp:DropDownList>
-    <br />
-    Matrícula:
+    &nbsp;<br />
+    Matricula:
     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     <br />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
     <br />
-    Año:
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Ingrese números" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
-    <br />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     <br />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Consulta" />
     <br />

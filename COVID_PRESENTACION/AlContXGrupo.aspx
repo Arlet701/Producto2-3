@@ -16,15 +16,10 @@
     <asp:DropDownList ID="DropDownList2" runat="server">
     </asp:DropDownList>
     <br />
-    Periodo:
+    Carrera:
     <asp:DropDownList ID="DropDownList3" runat="server">
     </asp:DropDownList>
-    <br />
-    Año:
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Ingrese números" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
-    <br />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    &nbsp;<br />
     <br />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Consulta" />
     <asp:GridView ID="GridView1" runat="server">

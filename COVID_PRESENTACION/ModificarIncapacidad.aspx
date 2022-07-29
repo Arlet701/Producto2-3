@@ -8,14 +8,15 @@
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     <br />
     <asp:Label ID="Label2" runat="server" Text="Comprobación:"></asp:Label>
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    <asp:FileUpload ID="FileUpload1" runat="server" />
     <br />
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+    <asp:ImageButton ID="ImageButton1" runat="server" />
+    <br />
     <br />
     <asp:Label ID="Label3" runat="server" Text="Extra: "></asp:Label>
     <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
     <br />
-    <asp:Label ID="Label4" runat="server" Text="F_positivoProfe:"></asp:Label>
+    <asp:Label ID="Label4" runat="server" Text="Profesor positivo:"></asp:Label>
     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox4" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
     <br />

@@ -11,7 +11,7 @@ C:\Users\FamContreras\Documents\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.dll
 C:\Users\FamContreras\Documents\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.pdb
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\bin\Debug\COVID_DAL.dll
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\bin\Debug\COVID_DAL.pdb
-C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.csprojAssemblyReference.cache
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.csproj.CoreCompileInputs.cache
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.dll
 C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.pdb
+C:\Users\FamContreras\Desktop\Producto2-main\COVID_DAL\obj\Debug\COVID_DAL.csprojAssemblyReference.cache

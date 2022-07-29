@@ -64,21 +64,21 @@ namespace COVID_BL
             return BD.ConsultaIncapacidad();
         }
 
-        public DataTable ConsultaProfCont(string ProgramaEducativo, string Periodo, int Anio)
+        public DataTable ConsultaProfCont(string ProgramaEducativo, string Periodo, int Anio, string Carrera)
         {
-            return BD.ConsultaProfesorContagiado(ProgramaEducativo, Periodo, Anio);
+            return BD.ConsultaProfesorContagiado(ProgramaEducativo, Periodo, Anio, Carrera);
         }
-        public DataTable ConsultaalCont(string ProgramaEducativo, string Periodo, int Anio)
+        public DataTable ConsultaalCont(string ProgramaEducativo, string Periodo, int Anio, string Carrera)
         {
-            return BD.ConsultaALContagiado(ProgramaEducativo, Periodo, Anio);
+            return BD.ConsultaALContagiado(ProgramaEducativo, Periodo, Anio, Carrera);
         }
-        public DataTable ConsultaalContgrupo(int Grado, string Grupo, string ProgramaEducativo, string Periodo, int Anio)
+        public DataTable ConsultaalContgrupo(int Grado, string Grupo, string ProgramaEducativo, string Carrera)
         {
-            return BD.ConsultaALContagiadoPorGrupo(Grado, Grupo, ProgramaEducativo, Periodo, Anio);
+            return BD.ConsultaALContagiadoPorGrupo(Grado, Grupo, ProgramaEducativo, Carrera);
         }
-        public DataTable ConsultaSegAL(string Periodo, string Matricula, int Anio)
+        public DataTable ConsultaSegAL(string Periodo, string Matricula)
         {
-            return BD.ConsultaSegALReg(Periodo, Matricula, Anio);
+            return BD.ConsultaSegALReg(Periodo, Matricula);
         }
         public DataTable ConsultaContPro(string Nombre, string Ap_pat, string Ap_Mat)
         {

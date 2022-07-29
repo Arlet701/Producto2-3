@@ -12,11 +12,11 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
     </p>
     <p>
-        Comprobacion:
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-    </p>
+        Comprobación:
+        <asp:FileUpload ID="FileUpload1" runat="server" />
+&nbsp;</p>
     <p>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Campo obligatorio" ForeColor="#F40000" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
+        <asp:ImageButton ID="ImageButton1" runat="server" />
     </p>
     <p>
         Antecedentes:<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>

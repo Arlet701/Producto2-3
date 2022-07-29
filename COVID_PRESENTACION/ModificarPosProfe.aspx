@@ -19,10 +19,11 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
     </p>
     <p>
-        Comprobación: <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        Comprobación: 
+        <asp:FileUpload ID="FileUpload1" runat="server" />
     </p>
     <p>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox3" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+        <asp:ImageButton ID="ImageButton1" runat="server" />
     </p>
     <p>
         Riesgo:<asp:DropDownList ID="DropDownList1" runat="server">

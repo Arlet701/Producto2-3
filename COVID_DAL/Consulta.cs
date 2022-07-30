@@ -51,6 +51,7 @@ namespace COVID_DAL
             
             using (SqlConnection Con = new SqlConnection(CadCon))
             {
+
                 Con.Open();
                 using (SqlCommand Com = new SqlCommand())
                 {
@@ -62,6 +63,7 @@ namespace COVID_DAL
                     Tabla = Cont.Tables[0];
                     Com.ExecuteNonQuery();
                 }
+
                 Con.Close();
                 Con.Dispose();
 
@@ -361,6 +363,7 @@ namespace COVID_DAL
                     Da.Fill(Cont);
                     Tabla = Cont.Tables[0];
                 }
+
             }
             return (Tabla);
         }

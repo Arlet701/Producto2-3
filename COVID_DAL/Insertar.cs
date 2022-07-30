@@ -17,6 +17,7 @@ namespace COVID_DAL
         public Insertar()
         {
             CadCon = ConfigurationManager.ConnectionStrings["segcovid"].ConnectionString;
+
         }
 
         public void AgregarAl(string Matricula, string Nombre, string Ap_pat, string Ap_mat, string Genero, string Correo, string Celular, int F_EdoCivil)

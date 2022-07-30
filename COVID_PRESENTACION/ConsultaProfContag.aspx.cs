@@ -41,6 +41,10 @@ namespace COVID_PRESENTACION
             string Carrera = DropDownList3.SelectedValue;
             GridView1.DataSource = op.ConsultaProfCont(ProgramaEducativo, Periodo, Anio, Carrera);
             GridView1.DataBind();
+            if (op == null)
+            {
+                Response.Write("<script>alert('No se encontraron resgistros');</script>");
+            }
         }
     }
 }

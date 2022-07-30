@@ -81,6 +81,12 @@
     <Content Include="ConsultaAlContag.aspx" />
     <Content Include="ConsultaProfContag.aspx" />
     <Content Include="ContProfDet.aspx" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="Eliminar.aspx" />
     <Content Include="EliminarAlumno.aspx" />
     <Content Include="EliminarAlumnoGrupo.aspx" />
@@ -96,8 +102,14 @@
     <Content Include="Eliminarsegprof.aspx" />
     <Content Include="Estilos\Estilo.css" />
     <Content Include="AgregarGrpCuatri.aspx" />
+    <Content Include="Imagenes\PortadaCovid.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="Agregarmedico.aspx" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.6.0.min.js" />
     <Content Include="Modificar.aspx" />
     <Content Include="AgregarposAlumno.aspx" />
     <Content Include="AgregarposProfe.aspx" />
@@ -452,6 +464,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="js\bootstrap.bundle.js.map" />
+    <Content Include="js\bootstrap.bundle.min.js.map" />
+    <Content Include="js\bootstrap.js.map" />
+    <Content Include="js\bootstrap.min.js.map" />
     <None Include="packages.config" />
     <Content Include="Home.Master" />
     <None Include="Web.Debug.config">

@@ -8,7 +8,7 @@ li {
     display: inline-block; /*Quita las viñetas*/
     margin-left: 45px; /*Margenes de la derecha e izquierda*/
     margin-right: 45px;
-    padding: 8px 16px 8px 16px; /*Espacio entre los links*/
+    padding: 6px 14px 6px 14px; /*Espacio entre los links*/
     font-size: 25px; /*Tamaño de la letra*/
     font-family: 'Century Gothic'; 
 }

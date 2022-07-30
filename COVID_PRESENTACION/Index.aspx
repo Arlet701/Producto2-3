@@ -9,10 +9,15 @@
                 <h1>Bienvenido</h1>
              </header>
                  <div>
+                     <center>
+                        <img src="Imagenes/PortadaCovid.jpg" class="img-fluid" width="2000" height="800"/>
+                     </center>
                     <p class ="text1">
+                        &nbsp;</p>
+                     <p class ="text1">
                         Te damos la bienvenida para que puedas dar el seguimiento de COVID, podrás agregar profesores, cuatrimestres, entre otras cosas.
                         Además, se podrá eliminar, modificar y consultar cosas de la base de datos. 
                     </p>
                   </div>
- </div>
+   </div>
 </asp:Content>

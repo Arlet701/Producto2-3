@@ -1,0 +1,76 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="ModificarProfesor.aspx.cs" Inherits="COVID_PRESENTACION.ModificarProfesor" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br />
+    <h2>Formulario para actualizar datos</h2>
+    <p>Ingrese el número de registro del empleado para actualizar*</p>
+    <div class="container">
+        <div class="form-group">
+                      Registro Empleado:
+             <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server"></asp:TextBox>
+                  <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+                  <br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+                  <br />
+             <br />
+        </div>
+        <div class="form-group">
+             Nombre:&nbsp;
+             <asp:TextBox ID="TextBox2" CssClass="form-control" runat="server"></asp:TextBox>
+                  <br />
+             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+             <br />
+        </div>
+        <div class="form-group">
+             Apellido Paterno:&nbsp;
+             <asp:TextBox ID="TextBox3" CssClass="form-control" runat="server"></asp:TextBox>
+                  <br />
+             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox3" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+             <br />
+        </div>
+        <div class="form-group">
+             Apellido Materno:&nbsp;
+             <asp:TextBox ID="TextBox4" CssClass="form-control" runat="server"></asp:TextBox>
+                  <br />
+        </div>
+             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox4" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+             <br />
+             Genero:&nbsp;
+                      <asp:DropDownList ID="DropDownList2" runat="server">
+                      </asp:DropDownList>
+                      <br />
+                      <br />
+                      Categoría:
+                      <asp:DropDownList ID="DropDownList1" runat="server">
+                      </asp:DropDownList>
+                  <br />
+             <br />
+        <div class="form-group">
+             Correo:&nbsp;
+             <asp:TextBox ID="TextBox6" CssClass="form-control" runat="server"></asp:TextBox>
+                  <br />
+             <br />
+        </div>
+        <div class="form-group">
+             Celular:&nbsp;
+             <asp:TextBox ID="TextBox7" CssClass="form-control" runat="server"></asp:TextBox>
+                  <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TextBox7" ErrorMessage="*Ingrese números" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+                  <br />
+             <br />
+        </div>
+        <div class="form-group">
+             Id
+             Estado Civil:&nbsp;&nbsp;
+             <asp:TextBox ID="TextBox9" CssClass="form-control" runat="server"></asp:TextBox>
+                  <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="TextBox9" ErrorMessage="*Ingrese el id" ForeColor="#F40000" ValidationExpression="[0-9]*"></asp:RegularExpressionValidator>
+                  <br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox9" ErrorMessage="*Campo obligatorio" ForeColor="#F40000"></asp:RequiredFieldValidator>
+                  <br />
+             <br />
+        </div>
+        <div class="form-group">
+            <asp:Button ID="Button1" runat="server" class="btn btn-primary" OnClick="Button1_Click" Text="Actualizar" />
+        </div>
+    </div>
+</asp:Content>

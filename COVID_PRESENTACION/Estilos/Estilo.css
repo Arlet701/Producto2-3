@@ -1,0 +1,25 @@
+﻿
+.fondo {
+    background-color: #31859C;
+    text-align: center;
+}
+
+li {
+    display: inline-block; /*Quita las viñetas*/
+    margin-left: 30px; /*Margenes de la derecha e izquierda*/
+    margin-right: 30px;
+    padding: 8px 16px 8px 16px; /*Espacio entre los links*/
+    font-size: 25px; /*Tamaño de la letra*/
+    font-family: 'Century Gothic';
+}
+
+.text1 {
+    text-align: left; /*Alineacion del text*/
+    font-size: 20px; /*Tamaño del texto*/
+    font-family: 'Century Schoolbook';
+}
+
+.menu {
+    border-radius: 20px; /*El borde de radio que tendrá el menú*/
+    background-color: #C0C0C0; /*Color del borde*/
+}
